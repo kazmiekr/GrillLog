@@ -3,3 +3,6 @@ credentials.json
 .parse.local
 .parse.project
 Old
+iOS/GrillLog.xcodeproj/xcuserdata
+iOS/GrillLog.xcodeproj/project.xcworkspace/xcuserdata
+iOS/GrillLog.xcodeproj/project.xcworkspace
