@@ -1,2 +1,5 @@
 Server/node_modules
 credentials.json
+.parse.local
+.parse.project
+Old
