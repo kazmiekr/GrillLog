@@ -20,6 +20,8 @@
 		81BA817B1A49E0E500E65899 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
 		81BA817F1A49E0F000E65899 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */; };
 		81BA81811A49E10C00E65899 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81801A49E10C00E65899 /* ParseUI.framework */; };
+		BA3E1FEA1BB9EBB400E3350D /* ParseCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E1FE91BB9EBB400E3350D /* ParseCredentials.swift */; settings = {ASSET_TAGS = (); }; };
+		BA3E1FEC1BB9EC4000E3350D /* SampleParseCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3E1FEB1BB9EC4000E3350D /* SampleParseCredentials.swift */; settings = {ASSET_TAGS = (); }; };
 		BAF8E6751B71A7F600C83C19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF8E6741B71A7F600C83C19 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +55,8 @@
 		81BA817E1A49E0F000E65899 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		81BA81801A49E10C00E65899 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		81BA81821A49E27F00E65899 /* GrillLog-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GrillLog-Bridging-Header.h"; sourceTree = "<group>"; };
+		BA3E1FE91BB9EBB400E3350D /* ParseCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseCredentials.swift; sourceTree = "<group>"; };
+		BA3E1FEB1BB9EC4000E3350D /* SampleParseCredentials.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleParseCredentials.swift; sourceTree = "<group>"; };
 		BAF8E6741B71A7F600C83C19 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,7 +83,7 @@
 		81BA813C1A49DA1800E65899 = {
 			isa = PBXGroup;
 			children = (
-				81BA81471A49DA1800E65899 /* ParseStarterProject */,
+				81BA81471A49DA1800E65899 /* GrillLog */,
 				81BA816A1A49DB5600E65899 /* Frameworks */,
 				81BA81461A49DA1800E65899 /* Products */,
 			);
@@ -93,17 +97,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81BA81471A49DA1800E65899 /* ParseStarterProject */ = {
+		81BA81471A49DA1800E65899 /* GrillLog */ = {
 			isa = PBXGroup;
 			children = (
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA81511A49DA1800E65899 /* Images.xcassets */,
 				BAF8E6741B71A7F600C83C19 /* LaunchScreen.storyboard */,
 				81BA814E1A49DA1800E65899 /* Main.storyboard */,
+				BA3E1FE91BB9EBB400E3350D /* ParseCredentials.swift */,
+				BA3E1FEB1BB9EC4000E3350D /* SampleParseCredentials.swift */,
 				81BA81481A49DA1800E65899 /* Supporting Files */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
 			);
-			name = ParseStarterProject;
 			path = GrillLog;
 			sourceTree = "<group>";
 		};
@@ -234,6 +239,8 @@
 			files = (
 				81BA814D1A49DA1800E65899 /* ViewController.swift in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
+				BA3E1FEC1BB9EC4000E3350D /* SampleParseCredentials.swift in Sources */,
+				BA3E1FEA1BB9EBB400E3350D /* ParseCredentials.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
