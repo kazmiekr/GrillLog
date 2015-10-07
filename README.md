@@ -14,3 +14,6 @@ Code/Design to build an Arduino/IoT BBQ dual probe thermometer system
 * 1X 220K resistor
 * 1X 1M resistor
 * 2X [2.5mm jacks](http://www.amazon.com/gp/product/B00AKWR59M?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00) soldered to wires
+
+##Diagram
+![Diagram](https://raw.githubusercontent.com/kazmiekr/GrillLog/master/Exports/GrillLog_bb.png)
