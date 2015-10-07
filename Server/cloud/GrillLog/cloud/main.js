@@ -2,7 +2,7 @@
 Parse.Cloud.beforeSave( "TempData", function ( request, response ) {
 
 	var thresholdTemp = 165;
-	var pushAlertText = "Food just hit " + threshold;
+	var pushAlertText = "Food just hit " + thresholdTemp;
 
 	query = new Parse.Query( "TempData" );
 	query.limit = 1;
