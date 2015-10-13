@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "81BA81441A49DA1800E65899"
-               BuildableName = "Grillog.app"
+               BuildableName = "GrillLog.app"
                BlueprintName = "GrillLog"
                ReferencedContainer = "container:GrillLog.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "Grillog.app"
+            BuildableName = "GrillLog.app"
             BlueprintName = "GrillLog"
             ReferencedContainer = "container:GrillLog.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "Grillog.app"
+            BuildableName = "GrillLog.app"
             BlueprintName = "GrillLog"
             ReferencedContainer = "container:GrillLog.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "81BA81441A49DA1800E65899"
-            BuildableName = "Grillog.app"
+            BuildableName = "GrillLog.app"
             BlueprintName = "GrillLog"
             ReferencedContainer = "container:GrillLog.xcodeproj">
          </BuildableReference>
