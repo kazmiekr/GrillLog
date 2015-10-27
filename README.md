@@ -18,3 +18,7 @@ This is a project that uses an Arduino UNO to monitor two temperature probes use
 
 ##Diagram
 ![Diagram](https://raw.githubusercontent.com/kazmiekr/GrillLog/master/Exports/GrillLog_bb.png)
+
+##Pictures
+![Grill](https://raw.githubusercontent.com/kazmiekr/GrillLog/master/Exports/pics/grill.jpg)
+![Complete](https://raw.githubusercontent.com/kazmiekr/GrillLog/master/Exports/pics/complete.jpg)
