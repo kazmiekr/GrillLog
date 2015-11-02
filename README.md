@@ -3,6 +3,10 @@
 
 This is a project that uses an Arduino UNO to monitor two temperature probes used for a BBQ smoker setup. One probe for food and another for the internal grill temp.  The temperature data is collected by the Arduino, then sent to a proxy server via the SparkFun wifi shield, which is based on the ESP8266.  The proxy server then forwards the temperature data to parse.com as parse.com required HTTPS and the ESP8266 doesn't.  Before the data is saved on Parse, a `beforeSave` trigger fires, and if the temp goes over a certain threshold, it will send a push notification to any subscribed clients.  There is an iOS project in here that allows for simple reading of the parse.com data.
 
+# Project Writeup
+
+View a full writeup of the project at http://www.universalmind.com/smoking-meat-with-the-internet-of-things/
+
 ##Parts
 * Breadboard 
 * Misc Jumper wires
