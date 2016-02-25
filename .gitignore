@@ -7,3 +7,7 @@ iOS/GrillLog.xcodeproj/xcuserdata
 iOS/GrillLog.xcodeproj/project.xcworkspace/xcuserdata
 iOS/GrillLog.xcodeproj/project.xcworkspace
 ParseCredentials.swift
+Alexa/node_modules
+Alexa/index_parse.js
+AWS/node_modules
+code.zip
