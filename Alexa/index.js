@@ -51,8 +51,8 @@ function onIntent( intentRequest, session, callback ) {
 			if ( intentName === STATUS_INTENT && hasData ) {
 				buildResponse( 'Your grill temperature is ' + temps.grillTemp + ' degrees and the food is at ' + temps.foodTemp + ' degrees. Its almost time to eat', callback );
 			} else if ( intentName === TEMPERATURE_INTENT && hasData ) {
-				var favoriteColorSlot = intent.slots.temptype.value;
-				if ( favoriteColorSlot === 'grill' ) {
+				var tempTypeSlot = intent.slots.temptype.value;
+				if ( tempTypeSlot === 'grill' ) {
 					buildResponse( 'Your grill temperature is ' + temps.grillTemp + ' degrees.', callback );
 				} else {
 					buildResponse( 'Your food temperature is ' + temps.foodTemp + ' degrees.', callback );
