@@ -72,7 +72,7 @@ function getWelcomeResponse( request, session, callback ) {
 	// If we wanted to initialize the session to have some attributes we could add those here.
 	var sessionAttributes = {};
 	var cardTitle = "Welcome";
-	var repromptText = "Say what's the status, or what's the temperature of the meat, for example";
+	var repromptText = "Say what's the status, or what's the temperature of the grill.";
 	var speechOutput = "Meat meat meat, you can ask me what the temperatures are in your grill. " + repromptText;
 	var shouldEndSession = false;
 
